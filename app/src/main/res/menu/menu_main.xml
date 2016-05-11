@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.acadgild.assignment63.MainActivity">
+
+
+    <item
+        android:id="@+id/action_Textcolor"
+        android:orderInCategory="100"
+        android:title="Textcolor"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+
+                android:id="@+id/action_red"
+                android:orderInCategory="100"
+                android:title="RED"
+                app:showAsAction="never"
+
+                />
+
+            <item
+
+                android:id="@+id/action_green"
+                android:orderInCategory="100"
+                android:title="Green"
+                app:showAsAction="never"
+
+                />
+
+            <item
+
+                android:id="@+id/action_Blue"
+                android:orderInCategory="100"
+                android:title="Blue"
+                app:showAsAction="never"
+
+                />
+
+        </menu>
+
+    </item>
+
+
+</menu>
